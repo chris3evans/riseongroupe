@@ -1,8 +1,15 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;CACjB;;AAED,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,UAAU;CACxB;;AAED,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,OAAO;CACpB;;ACfD,AAAA,CAAC;AACD,CAAC,CAAC;EACA,SAAS,EAAE,IAAI;CAChB;;AEHD,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,YAAY;EACrB,gBAAgB,EJFN,OAAa;EIGvB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,SAAS;EAClB,eAAe,EAAE,IAAI;EACrB,cAAc,EAAE,SAAS;EACzB,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,gBAAgB;EAC3B,UAAU,EAAE,QAAQ;CAMrB;;AAfD,AAWE,QAXM,AAWL,MAAM,CAAC;EACN,SAAS,EAAE,mBAAmB;EAC9B,UAAU,EAAE,IAAI,CAAC,IAAI,CAAC,IAAI,CAAM,kBAAK;CACtC;;AEdH,AAAA,mBAAmB,CAAC;EAClB,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,MAAM;CAChB",
     "sources": [
-        "main.scss"
+        "main.scss",
+        "Abstracts/_variables.scss",
+        "Base/_base.scss",
+        "Base/_typography.scss",
+        "Base/_utilities.scss",
+        "Components/_cta-btn.scss",
+        "Components/_navigation-menu.scss",
+        "Layouts/_navigation.scss"
     ],
     "names": [],
     "file": "main.css"

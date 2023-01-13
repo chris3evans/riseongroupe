@@ -1,0 +1,16 @@
+.btn-cta {
+  display: inline-block;
+  background-color: $dark-blue;
+  color: white;
+  padding: 2rem 4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  transform: translateY(0rem);
+  transition: all 0.4s;
+
+  &:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0rem 1rem 2rem rgba(black, 0.4);
+  }
+}
