@@ -1,0 +1,20 @@
+.section-case {
+  background-color: $grey;
+  padding: 5rem 0rem;
+  box-shadow: 0rem 0rem 2rem rgba(black, 0.4);
+}
+
+.case {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+
+  &-video {
+  }
+
+  &-text {
+    display: grid;
+    grid-template-rows: repeat(3, min-content);
+    grid-row-gap: 2.5rem;
+  }
+}

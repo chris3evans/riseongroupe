@@ -6,7 +6,6 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: sans-serif;
-  padding: 0rem 10rem;
 }
 
 *,
@@ -35,8 +34,17 @@ a {
   text-align: center;
 }
 
+.tertiary-heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
 .main-text {
   font-size: 2.5rem;
+}
+
+.center-section {
+  padding: 0rem 10rem;
 }
 
 .btn-cta {
@@ -100,6 +108,32 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.section-case {
+  background-color: #dfdfdf;
+  padding: 5rem 0rem;
+  -webkit-box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.case {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.case-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (min-content)[3];
+      grid-template-rows: repeat(3, -webkit-min-content);
+      grid-template-rows: repeat(3, min-content);
+  grid-row-gap: 2.5rem;
 }
 
 .hero-text {
