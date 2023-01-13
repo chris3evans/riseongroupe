@@ -1,0 +1,15 @@
+.endorsements {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 5rem;
+
+  &-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-item {
+  }
+}
