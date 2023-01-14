@@ -211,6 +211,40 @@ a {
   grid-row-gap: 2.5rem;
 }
 
+.facebook {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  padding: 10rem 0rem;
+}
+
+.facebook-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.facebook-image-file {
+  height: 30rem;
+  width: 30rem;
+}
+
+.facebook-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (min-content)[3];
+      grid-template-rows: repeat(3, -webkit-min-content);
+      grid-template-rows: repeat(3, min-content);
+  grid-row-gap: 5rem;
+}
+
 .section-guarantee {
   display: -ms-grid;
   display: grid;
