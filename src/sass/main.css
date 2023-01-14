@@ -265,6 +265,40 @@ a {
   justify-items: center;
 }
 
+.leads {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  padding: 10rem 0rem;
+}
+
+.leads-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.leads-image-file {
+  height: 30rem;
+  width: 30rem;
+}
+
+.leads-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (min-content)[3];
+      grid-template-rows: repeat(3, -webkit-min-content);
+      grid-template-rows: repeat(3, min-content);
+  grid-row-gap: 5rem;
+}
+
 .section-navigation {
   padding: 2.5rem;
 }
