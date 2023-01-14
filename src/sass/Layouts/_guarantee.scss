@@ -1,0 +1,6 @@
+.section-guarantee {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 5rem;
+  padding: 10rem 5rem;
+}
