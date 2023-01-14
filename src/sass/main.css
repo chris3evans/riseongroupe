@@ -43,6 +43,12 @@ a {
   font-size: 2.5rem;
 }
 
+.footer-text {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: white;
+}
+
 .center-section {
   padding: 0rem 10rem;
 }
@@ -243,6 +249,55 @@ a {
       grid-template-rows: repeat(3, -webkit-min-content);
       grid-template-rows: repeat(3, min-content);
   grid-row-gap: 5rem;
+}
+
+.footer {
+  background-color: #000061;
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-copyright, .footer-links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (min-content)[2];
+      grid-template-rows: repeat(2, -webkit-min-content);
+      grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 1.5rem;
+  justify-items: center;
+}
+
+.footer-socials {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2.5rem;
+}
+
+#facebook-icon,
+#instagram-icon {
+  height: 3.5rem;
+  width: 3.5rem;
+  fill: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#facebook-icon:hover {
+  fill: #4267b2;
+}
+
+#instagram-icon:hover {
+  fill: #f56040;
 }
 
 .section-guarantee {
