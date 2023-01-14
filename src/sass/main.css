@@ -51,6 +51,10 @@ a {
   text-transform: capitalize;
 }
 
+.text-highlight {
+  color: #019af3;
+}
+
 .btn-cta {
   display: inline-block;
   background-color: #000061;
@@ -140,6 +144,45 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.navigation-logo {
+  height: 10rem;
+  width: 10rem;
+}
+
+.acquisition {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  padding: 10rem 0rem;
+}
+
+.acquisition-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.acquisition-image-file {
+  height: 30rem;
+  width: 30rem;
+}
+
+.acquisition-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (min-content)[3];
+      grid-template-rows: repeat(3, -webkit-min-content);
+      grid-template-rows: repeat(3, min-content);
+  grid-row-gap: 5rem;
 }
 
 .section-case {
