@@ -25,18 +25,18 @@ a {
 .primary-heading {
   font-size: 4rem;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .secondary-heading {
   font-size: 3.5rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
 }
 
 .tertiary-heading {
   font-size: 3rem;
-  text-transform: uppercase;
+  text-transform: capitalizeww;
 }
 
 .main-text {
@@ -192,7 +192,7 @@ a {
 }
 
 .section-case {
-  background-color: #dfdfdf;
+  background-color: #d6f0ff;
   padding: 5rem 0rem;
   -webkit-box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.4);
           box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.4);
