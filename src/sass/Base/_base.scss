@@ -1,5 +1,21 @@
 html {
   font-size: 62.5%;
+
+  @include respond(phone-small) {
+    font-size: 62.5%;
+  }
+  @include respond(phone-big) {
+    font-size: 62.5%;
+  }
+  @include respond(tab-port) {
+    font-size: 62.5%;
+  }
+  @include respond(tab-land) {
+    font-size: 62.5%;
+  }
+  @include respond(desktop-big) {
+    font-size: 62.5%;
+  }
 }
 
 body {

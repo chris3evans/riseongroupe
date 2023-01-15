@@ -1,5 +1,15 @@
 .center-section {
   padding: 0rem 10rem;
+
+  @include respond(tab-land) {
+    padding: 0rem 7.5rem;
+  }
+  @include respond(tab-port) {
+    padding: 0rem 5rem;
+  }
+  @include respond(phone-big) {
+    padding: 0rem 2.5rem;
+  }
 }
 
 .capitalize {

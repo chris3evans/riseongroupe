@@ -9,6 +9,15 @@
   transform: translateY(0rem);
   transition: all 0.4s;
 
+  @include respond(tab-land) {
+    padding: 1.75rem 3.5rem;
+    font-size: 1.8rem;
+  }
+  @include respond(tab-port) {
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+  }
+
   &:hover {
     transform: translateY(-0.5rem);
     box-shadow: 0rem 1rem 2rem rgba(black, 0.4);
