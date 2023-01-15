@@ -19,3 +19,9 @@
 .text-highlight {
   color: $highlight-blue;
 }
+
+.center-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
