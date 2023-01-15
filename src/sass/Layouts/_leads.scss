@@ -3,6 +3,21 @@
   grid-template-columns: 40% 60%;
   padding: 10rem 0rem;
 
+  @include respond(tab-land) {
+    padding: 7.5rem 0rem;
+  }
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, min-content);
+    grid-row-gap: 5rem;
+    justify-items: center;
+    padding: 5rem 0rem;
+  }
+  @include respond(phone-big) {
+    padding: 2.5rem 0rem;
+    grid-row-gap: 1rem;
+  }
+
   &-image {
     display: flex;
     justify-content: center;
@@ -11,6 +26,15 @@
     &-file {
       height: 30rem;
       width: 30rem;
+
+      @include respond(tab-land) {
+        height: 25rem;
+        width: 25rem;
+      }
+      @include respond(tab-land) {
+        height: 22.5rem;
+        width: 22.5rem;
+      }
     }
   }
 
@@ -18,5 +42,15 @@
     display: grid;
     grid-template-rows: repeat(3, min-content);
     grid-row-gap: 5rem;
+
+    @include respond(tab-land) {
+      grid-row-gap: 4.5rem;
+    }
+    @include respond(tab-port) {
+      grid-row-gap: 3.5rem;
+    }
+    @include respond(phone-big) {
+      grid-row-gap: 2.5rem;
+    }
   }
 }
