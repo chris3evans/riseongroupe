@@ -82,9 +82,45 @@ a {
   text-align: center;
 }
 
+@media (max-width: 75em) {
+  .secondary-heading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .secondary-heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .secondary-heading {
+    font-size: 2rem;
+  }
+}
+
 .tertiary-heading {
   font-size: 3rem;
-  text-transform: capitalizeww;
+  text-transform: capitalize;
+}
+
+@media (max-width: 75em) {
+  .tertiary-heading {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .tertiary-heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .tertiary-heading {
+    font-size: 1.8rem;
+  }
 }
 
 .main-text {
@@ -270,6 +306,27 @@ a {
   width: 30rem;
 }
 
+@media (max-width: 75em) {
+  .guarantee-image-file {
+    height: 28rem;
+    width: 28rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .guarantee-image-file {
+    height: 25rem;
+    width: 25rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .guarantee-image-file {
+    height: 22.5rem;
+    width: 22.5rem;
+  }
+}
+
 @media (max-width: 37.5em) {
   .navigation {
     display: -webkit-box;
@@ -373,6 +430,24 @@ a {
           box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.4);
 }
 
+@media (max-width: 75em) {
+  .section-case {
+    padding: 4rem 0rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .section-case {
+    padding: 3rem 0rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .section-case {
+    padding: 2rem 0rem;
+  }
+}
+
 .case {
   display: -ms-grid;
   display: grid;
@@ -383,6 +458,18 @@ a {
           align-items: center;
 }
 
+@media (max-width: 56.25em) {
+  .case {
+    -ms-grid-rows: (min-content)[2];
+        grid-template-rows: repeat(2, -webkit-min-content);
+        grid-template-rows: repeat(2, min-content);
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 2rem;
+  }
+}
+
 .case-text {
   display: -ms-grid;
   display: grid;
@@ -390,6 +477,35 @@ a {
       grid-template-rows: repeat(3, -webkit-min-content);
       grid-template-rows: repeat(3, min-content);
   grid-row-gap: 2.5rem;
+}
+
+@media (max-width: 75em) {
+  .case-text {
+    grid-row-gap: 2rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .case-text {
+    grid-row-gap: 1.5rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .case-text {
+    grid-row-gap: 1rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .case-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .contact {

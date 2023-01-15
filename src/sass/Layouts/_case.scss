@@ -2,12 +2,29 @@
   background-color: $light-blue;
   padding: 5rem 0rem;
   box-shadow: 0rem 0rem 2rem rgba(black, 0.4);
+
+  @include respond(tab-land) {
+    padding: 4rem 0rem;
+  }
+  @include respond(tab-port) {
+    padding: 3rem 0rem;
+  }
+  @include respond(phone-big) {
+    padding: 2rem 0rem;
+  }
 }
 
 .case {
   display: grid;
   grid-template-columns: 40% 60%;
   align-items: center;
+
+  @include respond(tab-port) {
+    grid-template-rows: repeat(2, min-content);
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 2rem;
+  }
 
   &-video {
   }
@@ -16,5 +33,22 @@
     display: grid;
     grid-template-rows: repeat(3, min-content);
     grid-row-gap: 2.5rem;
+
+    @include respond(tab-land) {
+      grid-row-gap: 2rem;
+    }
+    @include respond(tab-port) {
+      grid-row-gap: 1.5rem;
+    }
+    @include respond(phone-big) {
+      grid-row-gap: 1rem;
+    }
+  }
+
+  &-button {
+    @include respond(tab-port) {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
