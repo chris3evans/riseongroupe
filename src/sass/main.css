@@ -217,6 +217,10 @@ a {
   grid-row-gap: 2.5rem;
 }
 
+.contact {
+  padding: 10rem 0rem;
+}
+
 .facebook {
   display: -ms-grid;
   display: grid;
