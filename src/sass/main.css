@@ -91,6 +91,24 @@ a {
   font-size: 2.5rem;
 }
 
+@media (max-width: 75em) {
+  .main-text {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .main-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .main-text {
+    font-size: 1.6rem;
+  }
+}
+
 .footer-text {
   font-size: 1.4rem;
   text-decoration: none;
@@ -170,12 +188,6 @@ a {
 }
 
 .guarantee {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (min-content)[2];
-      grid-template-rows: repeat(2, -webkit-min-content);
-      grid-template-rows: repeat(2, min-content);
-  grid-row-gap: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,6 +197,18 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 56.25em) {
+  .guarantee {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (min-content)[2];
+        grid-template-rows: repeat(2, -webkit-min-content);
+        grid-template-rows: repeat(2, min-content);
+    grid-row-gap: 2.5rem;
+    justify-items: center;
+  }
 }
 
 .guarantee-list {
@@ -208,10 +232,37 @@ a {
   grid-column-gap: 2rem;
 }
 
+@media (max-width: 37.5em) {
+  .guarantee-item {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
 .guarantee-item-icon {
   height: 5rem;
   width: 5rem;
   fill: yellow;
+}
+
+@media (max-width: 75em) {
+  .guarantee-item-icon {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .guarantee-item-icon {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .guarantee-item-icon {
+    display: none;
+  }
 }
 
 .guarantee-image-file {
